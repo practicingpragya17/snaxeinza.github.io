@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>snxkeienza</title>
+        <style>
+        h1
+        {
+            text-align: center;
+            font-family: Impact;
+            margin: 10px;
+
+        }
+    
+        canvas
+        {
+            box-shadow: 5px 5px 6px rgba(0,0,0,0.2);
+            position: absolute;
+            left: 30%;
+
+        }
+		.reptile
+		{
+		background-size:cover;
+		background-position:center center;
+		width:200px;
+		height:200px;
+		position:absolute;
+		display:none;
+		}
+		
+		#reptile1
+		
+		{
+		background-image:url("snake1.gif");
+
+		top:35%;
+		left:75%;
+		}
+	   #reptile2
+		
+		{
+		background-image:url("snake2.gif");
+        transform:rotateY(180deg);
+		top:35%;
+		left:9%;
+		
+		
+		
+		
+        </style>
+        </head>
+        <body>
+        
+            <h1>Snxkeienza</h1>
+            <canvas width="608" height="608" id="canvas"></canvas>
+			<div class="reptile" id="reptile1"></div>
+			
+			<div class="reptile" id="reptile2"></div>
+			
+            <script src="script.js"></script>
+        </body>
+        </html>
+        
